@@ -24,6 +24,7 @@ function getData() {
         }
       });
   }
+  inputField.value = "";
 }
 
 function checkEmpty() {
@@ -71,6 +72,4 @@ function extractData(repo) {
   mainDataBox.appendChild(repoUrlContainer);
 
   displayData.appendChild(mainDataBox);
-
-  console.log(repoName);
 }
